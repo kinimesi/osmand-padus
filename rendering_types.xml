@@ -6116,6 +6116,8 @@
 		<type tag="boundary" value="political" minzoom="6" />
 		<type tag="boundary" value="maritime" minzoom="6" />
 		<type tag="boundary" value="national_park" minzoom="6" nameTags="name" relation="true"/>
+		<type tag="boundary" value="blm_land" minzoom="6" nameTags="name" relation="true"/>
+		<type tag="boundary" value="usfs_land" minzoom="6" nameTags="name" relation="true"/>
 		<type tag="boundary" value="aboriginal_lands" minzoom="6" relation="true"/>
 		<entity_convert pattern="tag_transform" from_tag="type" from_value="boundary" if_tag1="boundary" if_value1="aboriginal_lands" to_tag1="type" to_value1="multipolygon"/>
 		<type tag="boundary" value="border_zone" minzoom="6" relation="true"/>
