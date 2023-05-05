@@ -1,0 +1,7 @@
+<renderingStyle name="PADUS" depends="default" defaultColor="#F5FFFF" version="1">
+	<polygon>
+		<case tag="boundary" value="blm_land" order="250">
+			<apply color="#30ffff00" shadowColor="#ffff00" order="250"/>
+		</case>
+	</polygon>
+</renderingStyle>
